@@ -1,0 +1,103 @@
+/*link*/
+.link {
+    width: 100%;
+    background: #e7e7e7;
+    margin-top: 50px;
+}
+.h35 {
+    height: 35px;
+}
+.link-box {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px 0 20px;
+    color: #757575;
+}
+.link-box a {
+    margin: 0 6px;
+    font-size: 15px;
+}
+.slt {
+    width: 1050px;
+    margin: 25px auto 0;
+}
+.slt select {
+    width: 155px;
+    height: 26px;
+    border: 1px solid #dedede;
+    font-size: 14px;
+    margin-right: 5px;
+    background: #fff;
+    text-indent: 15px;
+}
+.slt select:nth-child(5){width: 225px;}
+/* navLink */
+.navLink{width: 1200px;margin: 0 auto;padding: 10px 0 30px;position: relative;display: table;}
+.navUl{width: max-content;margin: 0 auto;}
+.navUl li{height: 28px;line-height: 28px;margin: 0 5px;padding: 0 20px;float: left;background: #fff;}
+.navUl li h3{font-size: 14px;}
+.navUl li i{display: inline-block;margin-left: 10px;width: 12px;height: 12px;background: url(../images/linkbgjt1.png) center center no-repeat;}
+.navUl li.on i{background: url(../images/linkbgjt2.png) center center no-repeat;}
+.navList{display: none;position: absolute;top: -410px;left: 0;width: 1200px;height: 420px;background: #dadada;z-index: 2;overflow: auto;}
+.navUl li:nth-child(2) .navList{top: -210px;height: 220px;}
+.navUl li:nth-child(3) .navList{top: -360px;height: 370px;}
+.navUl li:nth-child(4) .navList{top: -210px;height: 220px;}
+.show{display: block!important;}
+.navList ol{overflow: hidden;padding: 25px 0 25px 50px;}
+.navList dl{width: 25%;float: left;height: 40px;line-height: 40px;font-size: 15px;}
+.navUl li:nth-child(2) .navList dl{width: 10%;}
+.navUl li:nth-child(3) .navList dl{width: 25%;}
+.navUl li:nth-child(5) .navList dl{width: 100%;}
+.navUl li:nth-child(5) .navList dl span{margin-right: 15px;}
+.navUl li:nth-child(5) .navList dl span a{color: #000;}
+.navUl li:nth-child(5) .navList dl span:first-child{display: inline-block;width: 72px;margin-right: 0;}
+/*footer*/
+.footer {
+    width: 100%;
+    padding-bottom: 30px;
+    background: #e7e7e7;
+    color: #757575;
+}
+.h30{
+    height: 30px;
+}
+.h25 {
+    height: 20px;
+}
+
+.footer .footer-m {
+    width: 870px;
+    margin: 0 auto;
+}
+
+.footer .footer-m p {
+    font-size: 14px;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+.footer .footer-m p:first-child {
+    margin-left: -6px;
+}
+
+.footer .footer-m p a {
+    margin: 0 6px;
+    color: #757575;
+}
+
+.footer .footer-m .fr img {
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+/* 老年模式 */
+.oldModel .link-box{ width: 1270px;font-size: 28px; }
+.oldModel .link-box a{ font-size: 28px; }
+.oldModel .slt{ width: 1210px; }
+.oldModel .slt select{ width: 193px;font-size: 28px;height: 40px; }
+.oldModel .footer .footer-m{ width: 1270px !important; }
+.oldModel .footer .footer-m p{font-size: 28px;line-height: 1.5;}
+.oldModel .navUl li{height: auto;line-height: 2;}
+.oldModel .navUl li h3{font-size: 28px;}
+.oldModel .navList dl{font-size: 28px;width: 33%;line-height: 2;}
